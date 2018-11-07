@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-basis: 100%;
+
+}
+
+.col {
+    display: flex;
+    padding: .5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.column--2 {
+    width: 50%;
+}
+
+.column--3 {
+    width: calc(100%/3 + .5rem);
+}
+
+.column--6  {
+    width: calc(100%/6);
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
